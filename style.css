@@ -1,0 +1,74 @@
+*{
+    font-family: Roboto, sans-serif;
+    background-color: #fefefe;
+}
+.header{
+    /* background-color:aqua; */
+    height:10vh;
+    width:90vw;
+    margin:auto;
+    display:flex;
+    align-items: center;
+}
+.nav{
+    /* background-color: white; */
+    flex:1;
+    display:flex;
+    justify-content:space-around;
+}
+a:link{
+    text-decoration: none;
+    color:rgb(56 56 56);
+    font-size: 16pt;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: grey;
+}
+.contact{
+    flex:1;
+    display:flex;
+    justify-content: flex-end;
+}
+.btn_contact{
+    background-color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16pt;
+    border-style: solid;
+    border-width: 4px;
+    border-color: darkolivegreen;
+    border-radius: 20px;
+    width: 15vw;
+    min-width: 120px;
+    padding: 1.5%;
+}
+.main{
+    width:90vw;
+    height:85vh;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    gap:10vw;
+    margin-top: -5vh;
+    flex-wrap:wrap;
+}
+h1{
+    font-size: 48pt;
+}
+p{
+    font-size: 12pt;
+    min-width:400px;
+}
+.content{
+    flex:1;
+}
+.hero{
+    flex:3;
+    min-width: 400px;
+}
+.hero_img{
+    width: 50vw;
+}
